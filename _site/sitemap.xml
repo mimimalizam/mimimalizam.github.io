@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://taylantatli.me/Moon/404</loc>
+<loc>/404</loc>
 </url>
 <url>
-<loc>http://taylantatli.me/Moon/tags/</loc>
+<loc>/tags/</loc>
 </url>
 <url>
-<loc>http://taylantatli.me/Moon/</loc>
+<loc>/</loc>
 </url>
 <url>
-<loc>http://taylantatli.me/Moon/about/</loc>
+<loc>/about/</loc>
 </url>
 <url>
-<loc>http://taylantatli.me/Moon/projects/</loc>
+<loc>/projects/</loc>
 </url>
 <url>
-<loc>http://taylantatli.me/Moon/posts/</loc>
+<loc>/posts/</loc>
 </url>
 </urlset>
