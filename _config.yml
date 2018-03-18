@@ -3,13 +3,14 @@ title:              Milana Stojadinov
 author:             ---
 email:              milana.stojadinov@gmail.com
 bio:
-description:        "Personal blog"
+description:
 
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
 theme:              minima
 show_excerpts:      true
+highlighter:        rouge
 sass:
   sass_dir:         _sass
   style:            compressed
@@ -17,7 +18,9 @@ sass:
 header_pages:
 - about/index.md
 
-disqus_shortname:   mimimalizam-github-io
+google_analytics:   UA-80096404-1
+disqus:
+  shortname:        mimimalizam-github-io
 twitter_username:   mstojadinov
 github_username:    mimimalizam
 linkedin:           mstojadinov
