@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem "minima"
+gem "game-of-life-theme"
 gem "jekyll"

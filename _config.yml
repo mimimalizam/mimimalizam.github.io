@@ -8,7 +8,7 @@ description:
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
-theme:              minima
+theme:              game-of-life-theme
 show_excerpts:      true
 highlighter:        rouge
 sass:
