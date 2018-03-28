@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "💎 gem haskii 👋 🖖 🍒 🍀 🦁 💎"
+title: "Gem haskii"
 date: 2017-03-25
 excerpt: "Simple gem created while exercising TDD in Ruby"
 project: true
@@ -9,9 +9,8 @@ comments: true
 ---
 
 **Haskiii** is a simple CLI built as an exercise on TDD.
-
-It is a Ruby gem. If you'd like to take a look at repository, it can be found
-[here](https://github.com/mimimalizam/haskii).
+It is a Ruby gem, click [here](https://github.com/mimimalizam/haskii)
+to take a look into its repository.
 
 [![Gem Version](https://badge.fury.io/rb/haskii.svg)](https://badge.fury.io/rb/haskii)
 [![Build Status](https://semaphoreci.com/api/v1/mstojadinov/haskii/branches/master/badge.svg)](https://semaphoreci.com/mstojadinov/haskii)
@@ -53,3 +52,5 @@ makes an executable.
 ```
 chmod +x <file-path>
 ```
+
+# 💎 👋 🖖 🍒 🍀 🦁 💎

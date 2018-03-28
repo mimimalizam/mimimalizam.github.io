@@ -1,26 +1,13 @@
-# Site
-title:              Milana Stojadinov
-author:             ---
-email:              milana.stojadinov@gmail.com
-bio:
-description:
+title: Milana Stojadinov
+author: mimimalizam
+email: milana.stojadinov@gmail.com
+description: "my blog space"
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-theme:              minima
-show_excerpts:      true
-highlighter:        rouge
-sass:
-  sass_dir:         _sass
-  style:            compressed
+show_excerpts: true
+baseurl: ""
 
-header_pages:
-- about/index.md
-
-google_analytics:   UA-80096404-1
-disqus:
-  shortname:        mimimalizam-github-io
-twitter_username:   mstojadinov
-github_username:    mimimalizam
-linkedin:           mstojadinov
+permalink: /:categories/:title/
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
