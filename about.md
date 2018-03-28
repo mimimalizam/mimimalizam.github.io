@@ -1,9 +1,6 @@
 ---
-layout: page
-title: About me
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
-comments: false
+layout: about
+title: about me
 ---
 
 Formally educated in theoretical mathematics, and not afraid to use it. Curios

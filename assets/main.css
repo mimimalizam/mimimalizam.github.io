@@ -1,0 +1,39 @@
+@import url("css/code.css");
+@import url("css/card.css");
+@import url("css/header.css");
+
+html, body {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+}
+
+h1, h4 {
+  text-align: center;
+}
+
+h1, h2, h4 {
+  padding: 20px;
+}
+
+body {
+  vertical-align: middle;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  margin-left: 0em;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
