@@ -3,9 +3,12 @@
 }
 
 .card {
-  font-family: Lato, sans-serif;
-  font-size: 15px;
+  font-family: medium-content-serif-font,
+  Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 18px;
+  font-weight: 400;
   padding: 2em;
+  line-height: 1.5;
   border-radius: 2px;
   width: 80%;
 }
@@ -21,7 +24,6 @@
   max-width: 750px;
   margin: 0 auto;
   position:relative;
-  padding: 100px 100px;
   justify-content: center;
   display: flex;
 }

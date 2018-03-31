@@ -18,6 +18,20 @@ h1, h4 {
 
 h1, h2, h4 {
   padding: 20px;
+  font-family: sans-serif;
+}
+
+p {
+  padding: 10px;
+}
+
+.index-list {
+  padding: 0px;
+  font-size: 15px;
+}
+
+.date-left {
+  text-align: right;
 }
 
 body {

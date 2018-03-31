@@ -1,5 +1,6 @@
 .highlight {
   background: #F8FAFC;
+  font-size: 15px;
   @extend %vertical-rhythm;
 
   .c     { color: #998; font-style: italic } // Comment
