@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="card yellow-background">
+<div class="card card-background">
   {% include header.html %}
   {% if page.title %}
   <h1 class="page-heading">{{ page.title }}</h1>
@@ -11,21 +11,23 @@ layout: default
   {{ content }}
 
   {% if site.posts.size > 0 %}
-  <h3 class="index-list">{{ page.list_title | default: "Posts:" }}</h2>
+  <h3>{{ page.list_title | default: "Posts:" }}</h2>
   <ul>
     {% for post in site.posts %}
     <li>
-    <h3>
-      <a class="post-link" href="{{ post.url | relative_url }}">
+      <a href="{{ post.url | relative_url }}" class="index-list">
         {{ post.title | escape }}
       </a>
-    </h3>
-    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-    <p class="index-list">
-    {% if site.show_excerpts %}
-      {{ post.excerpt }} [{{ post.date | date: date_format }}]
-    {% endif %}
-    </p>
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      {% if site.show_excerpts %}
+       <table>
+         <tr>
+           <td class="alnleft">{{ post.excerpt }}</td>
+           <td class="alnright">[{{ post.date | date: date_format }}]</td>
+          </tr>
+        </table>
+      {% endif %}
+      <br>
     </li>
     {% endfor %}
   </ul>

@@ -3,10 +3,12 @@ author: mimimalizam
 email: milana.stojadinov@gmail.com
 description: "my blog space"
 
+permalink: /:categories/:title/
 show_excerpts: true
 baseurl: ""
 
-permalink: /:categories/:title/
+font: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+background: fff5e6;
 markdown: kramdown
 exclude:
   - Gemfile
