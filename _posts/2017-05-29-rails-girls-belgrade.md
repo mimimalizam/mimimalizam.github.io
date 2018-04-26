@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "💎  Teenage Rails Girls workshop 💎"
+title: "Teenage Rails Girls workshop"
 date: 2017-05-29
 excerpt: "Few words about being a mentor"
 tags: [ruby, ror, workshop]
@@ -31,3 +31,5 @@ the path strewn with tears. Tears of joy, of course. Sugar spice and everything 
 As a proud 6th-time mentor - I hope to meet some of the attendees as mentors in the future.
 At the end, all this - Milana-in-dev-world, started when I attended the first [Rails Girls workshop
 in Novi Sad](http://railsgirls.com/novisad).
+
+# 💎 💎
