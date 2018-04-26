@@ -18,20 +18,26 @@ h1, h4 {
 
 h1, h2, h4 {
   padding: 20px;
-  font-family: sans-serif;
 }
 
 p {
   padding: 10px;
 }
 
-.index-list {
-  padding: 0px;
-  font-size: 15px;
+.index-list{
+  font-size: 25px;
 }
 
-.date-left {
+.alnleft {
+  text-align: left;
+}
+
+.alnright {
   text-align: right;
+}
+
+table {
+  width: 100%;
 }
 
 body {
