@@ -11,7 +11,7 @@ layout: default
   {{ content }}
 
   {% if site.posts.size > 0 %}
-  <h3>{{ page.list_title | default: "posts:" }}</h2>
+  <h3>{{ page.list_title | default: "posts:" }}</h3>
   <ul>
     {% for post in site.posts %}
     <li>
@@ -32,4 +32,18 @@ layout: default
     {% endfor %}
   </ul>
   {% endif %}
+  <h3>{{ "other:" }}</h3>
+  <ul>
+    <li>
+      <a href="{{ "utils" | relative_url }}" class="index-list">
+        {{ "Utils" | escape }}
+      </a>
+       <table>
+         <tr>
+           <td class="alnleft">{{ "Short list of some installation scripts" }}</td>
+          </tr>
+        </table>
+      <br>
+    </li>
+  </ul>
 </div>
